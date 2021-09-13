@@ -1,0 +1,27 @@
+{
+    "name": "sourecode/common",
+    "type": "library",
+    "description": "Common interfaces, traits and classes to build applications",
+    "keywords": [
+        "common"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jason Schilling",
+            "email": "jason@sourecode.dev"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SoureCode\\Component\\Common\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "minimum-stability": "dev"
+}
