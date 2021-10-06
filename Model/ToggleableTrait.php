@@ -15,16 +15,16 @@ namespace SoureCode\Component\Common\Model;
  */
 trait ToggleableTrait
 {
-    protected bool $enabled = true;
+    protected ?bool $enabled = null;
 
-    public function isEnabled(): bool
+    public function isEnabled(): ?bool
     {
         return $this->enabled;
     }
 
     public function setEnabled(?bool $enabled): void
     {
-        $this->enabled = (bool) $enabled;
+        $this->enabled = $enabled;
     }
 
     public function enable(): void
