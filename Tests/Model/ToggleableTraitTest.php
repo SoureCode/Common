@@ -1,4 +1,12 @@
 <?php
+/*
+ * This file is part of the SoureCode package.
+ *
+ * (c) Jason Schilling <jason@sourecode.dev>
+ *
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ */
 
 namespace SoureCode\Component\Common\Tests\Model;
 
@@ -13,7 +21,7 @@ class ToggleableTraitTest extends TestCase
         $mock = new ToggleableMock();
 
         // Act and Assert
-        self::assertTrue($mock->isEnabled());
+        self::assertNull($mock->isEnabled());
         $mock->setEnabled(false);
         self::assertFalse($mock->isEnabled());
         $mock->enable();
