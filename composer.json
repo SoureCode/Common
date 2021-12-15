@@ -14,7 +14,7 @@
         "php": "^8.0 || ^8.1",
         "doctrine/common": "^3.2",
         "doctrine/persistence": "^2.2",
-        "symfony/string": "^5.3 || ^5.4 || ^6.0 || ^6.1"
+        "symfony/string": "^5.3 || ^6.0"
     },
     "autoload": {
         "psr-4": {
