@@ -14,6 +14,7 @@
         "php": "^8.0 || ^8.1",
         "doctrine/common": "^3.2",
         "doctrine/persistence": "^2.2",
+        "twig/twig": "^3.3",
         "symfony/string": "^5.3 || ^6.0"
     },
     "autoload": {
